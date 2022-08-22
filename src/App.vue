@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h3>hello world</h3>
-    <p>git</p>
+    <Home></Home>
   </div>
 </template>
 
 <script>
+import Home from './pages/home/Home.vue';
   export default {
-    name:"App"
-  }
+    name: "App",
+    components: { Home }
+}
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
